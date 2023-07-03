@@ -1,0 +1,46 @@
+@import 'mixins.scss';
+@import 'variables.scss';
+
+.about{
+    @include center;
+    @include atSmall{
+        padding: 5% 0%;
+    }
+    &.with-img{
+        // padding: 10% 10%;
+        background: url('http://localhost/wordpress/wp-content/uploads/2023/06/logistika.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .max{
+    max-width: 1600px;
+    @include atMedium{
+        width: 100%;
+        padding: 20% 10%;
+        p{
+            text-align: left;
+        }
+    }
+    @include biggest{
+        padding: 5% 320px;
+    }
+    @include center();
+    flex-direction: column;
+    padding: 5% 20%;
+    text-align: left;
+    font-size: 1.1rem;
+    img, h1{
+        margin-bottom: 50px;
+    }
+    // h1{
+    //     width: 100%;
+    // }
+
+
+
+}
+&.about-products{
+    // padding: 0 10%;
+}
+}

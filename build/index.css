@@ -1,0 +1,1082 @@
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/styles/main.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
+nav {
+  font-weight: 600;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  z-index: 20;
+  background-color: #05194b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .max-width {
+  max-width: 1600px;
+  opacity: 1;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+nav .max-width .homelink {
+  height: 100%;
+  margin-left: 10%;
+}
+nav .max-width .homelink img.nav-active {
+  transform: scale(1);
+  transition: 0.3s;
+  transform-origin: 0 0;
+}
+nav .max-width .homelink img {
+  transform-origin: 0 0;
+  transform: scale(1.2);
+  height: 100%;
+  transition: 0.3s;
+}
+@media screen and (max-width: 980px) {
+  nav .max-width .homelink img {
+    transform: scale(1);
+  }
+}
+nav .max-width button {
+  display: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+nav .max-width a {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s linear;
+}
+nav .max-width a:hover {
+  color: #d2ab67;
+}
+nav .max-width .con {
+  transition: 0.5s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+nav .max-width .con .homelink, nav .max-width .con .social {
+  width: 15%;
+  text-align: center;
+}
+nav .max-width .con ul.social {
+  width: 13%;
+  margin-right: 10%;
+}
+@media screen and (max-width: 980px) {
+  nav .max-width .con ul.social {
+    margin-right: 0;
+  }
+}
+nav .max-width .con ul.social li a {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .max-width .con ul.social li a img {
+  width: 100%;
+  position: absolute;
+}
+nav .max-width .con ul.social li a img:last-child {
+  opacity: 0;
+  transition: 0.3s;
+}
+nav .max-width .con ul.social li a:hover img:last-child {
+  opacity: 1;
+  transition: 0.3s;
+}
+nav .max-width .con .links {
+  width: 50%;
+  margin-left: 5%;
+}
+@media screen and (max-width: 980px) {
+  nav .max-width .con .links {
+    margin-left: 0;
+  }
+}
+nav .max-width .con ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+nav .max-width .con ul li {
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  color: #ffffff;
+  list-style: none;
+}
+nav .max-width .con ul li.active a {
+  color: #d2ab67;
+}
+nav .max-width .con ul li:hover {
+  color: #d2ab67;
+}
+@media screen and (max-width: 1200px) {
+  nav .max-width .con ul {
+    flex-direction: column;
+    height: 50%;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  nav .max-width .con {
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    background-color: #05194b;
+    transform: translateY(-100vh);
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+  }
+  nav .max-width .con ul.social {
+    width: 40%;
+  }
+}
+nav .max-width .con ul.social {
+  flex-direction: row;
+  height: 15%;
+}
+@media screen and (max-width: 1200px) {
+  nav .max-width button {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+}
+nav.open .con {
+  transform: translateY(0);
+}
+
+.item {
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: pink;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #05194b;
+}
+footer .max {
+  max-width: 1600px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .max .copy {
+  width: 100%;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .max a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+footer .max a:hover {
+  color: #d2ab67;
+}
+footer .max ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+footer .max .con {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 20%;
+}
+@media screen and (max-width: 980px) {
+  footer .max .con {
+    padding: 10%;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 520px) {
+  footer .max .con .left {
+    font-size: 0.8rem;
+  }
+}
+footer .max .con .left p {
+  display: flex;
+  gap: 5px;
+}
+@media screen and (max-width: 980px) {
+  footer .max .con .left {
+    width: 100%;
+    text-align: left;
+  }
+}
+footer .max .con .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+@media screen and (max-width: 980px) {
+  footer .max .con .right {
+    margin-top: 30px;
+    width: 100%;
+    align-items: flex-start;
+  }
+}
+footer .max .con .right a {
+  text-transform: uppercase;
+}
+footer .max .con .right ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .max .con .right ul li a {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .max .con .right ul li a img {
+  width: 100%;
+  position: absolute;
+}
+footer .max .con .right ul li a img:last-child {
+  opacity: 0;
+  transition: 0.3s;
+}
+footer .max .con .right ul li a:hover img:last-child {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+p, a, li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding-top: 80px;
+  position: relative;
+}
+.container video {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (max-width: 980px) {
+  .container video {
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 100%;
+  }
+}
+
+body {
+  background-color: #154074;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+}
+.video-background {
+  height: calc(100vh - 80px) !important;
+}
+@media screen and (max-width: 980px) {
+  .video-background {
+    height: 100% !important;
+  }
+}
+
+.max-width .hero-slider-overlay,
+.max-width .overlay {
+  width: 35% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 10%;
+}
+@media screen and (max-width: 980px) {
+  .max-width .hero-slider-overlay,
+  .max-width .overlay {
+    width: 50% !important;
+  }
+}
+@media screen and (max-width: 520px) {
+  .max-width .hero-slider-overlay,
+  .max-width .overlay {
+    width: 100% !important;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    padding: 0 5%;
+  }
+}
+.max-width .hero-slider-overlay h1,
+.max-width .overlay h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  filter: drop-shadow(12px 19px 40px #000);
+}
+@media screen and (max-width: 520px) {
+  .max-width .hero-slider-overlay h1,
+  .max-width .overlay h1 {
+    text-align: center;
+  }
+}
+.max-width .hero-slider-overlay a.overlay-btn,
+.max-width .overlay a.overlay-btn {
+  text-decoration: none;
+  z-index: 10;
+  margin-top: 50px;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #e11b22;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+.max-width .hero-slider-overlay a.overlay-btn:hover,
+.max-width .overlay a.overlay-btn:hover {
+  transform: scale(1.1);
+}
+
+.hero-slider-wrapper {
+  height: calc(100vh - 80px) !important;
+}
+
+.single-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100% !important;
+  height: calc(100vh - 80px);
+  max-height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 520px) {
+  .single-banner.desktop {
+    display: none !important;
+  }
+}
+.single-banner.mobile {
+  display: none !important;
+}
+@media screen and (max-width: 520px) {
+  .single-banner.mobile {
+    display: block !important;
+  }
+}
+.single-banner.mobile .max {
+  justify-content: flex-end;
+}
+.single-banner.mobile .max h1 {
+  font-size: 2.5rem;
+  width: 100%;
+  text-align: left;
+}
+.single-banner.mobile .max a.overlay-btn {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.single-banner .max {
+  padding: 0 10%;
+  max-width: 1600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+@media screen and (min-width: 1600px) {
+  .single-banner .max {
+    padding: 0 13%;
+  }
+}
+.single-banner .max h1 {
+  width: 40%;
+  font-size: 4rem;
+  text-transform: uppercase;
+  filter: drop-shadow(12px 19px 40px #000);
+}
+@media screen and (min-width: 1600px) {
+  .single-banner .max h1 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .single-banner .max h1 {
+    text-align: center;
+  }
+}
+.single-banner .max a.overlay-btn {
+  text-decoration: none;
+  z-index: 10;
+  margin-top: 50px;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #e11b22;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+.single-banner .max a.overlay-btn:hover {
+  transform: scale(1.1);
+}
+
+.max-width {
+  max-width: 1600px;
+}
+
+.max {
+  max-width: 1600px;
+  height: 100%;
+}
+
+@media screen and (max-width: 520px) {
+  .hero-slider.desktop {
+    display: none !important;
+  }
+}
+.hero-slider.mobile {
+  display: none !important;
+}
+@media screen and (max-width: 520px) {
+  .hero-slider.mobile {
+    display: block !important;
+    justify-content: flex-end;
+  }
+  .hero-slider.mobile .hero-slider-overlay,
+  .hero-slider.mobile .overlay {
+    padding: 0 10%;
+    align-items: start;
+    justify-content: flex-end;
+  }
+  .hero-slider.mobile .hero-slider-overlay h1,
+  .hero-slider.mobile .overlay h1 {
+    font-size: 2.5rem;
+    width: 100%;
+    text-align: left;
+  }
+  .hero-slider.mobile .hero-slider-overlay a.overlay-btn,
+  .hero-slider.mobile .overlay a.overlay-btn {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}
+.hero-slider .hero-slider-overlay,
+.hero-slider .overlay {
+  width: 50% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 10%;
+}
+@media screen and (min-width: 1600px) {
+  .hero-slider .hero-slider-overlay,
+  .hero-slider .overlay {
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width: 980px) {
+  .hero-slider .hero-slider-overlay,
+  .hero-slider .overlay {
+    width: 50% !important;
+  }
+}
+@media screen and (max-width: 520px) {
+  .hero-slider .hero-slider-overlay,
+  .hero-slider .overlay {
+    width: 100% !important;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    padding: 0 5%;
+  }
+}
+.hero-slider .hero-slider-overlay h1,
+.hero-slider .overlay h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  filter: drop-shadow(12px 19px 40px #000);
+}
+@media screen and (max-width: 520px) {
+  .hero-slider .hero-slider-overlay h1,
+  .hero-slider .overlay h1 {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .hero-slider .hero-slider-overlay h1,
+  .hero-slider .overlay h1 {
+    width: 50%;
+  }
+}
+.hero-slider .hero-slider-overlay a.overlay-btn,
+.hero-slider .overlay a.overlay-btn {
+  text-decoration: none;
+  z-index: 10;
+  margin-top: 50px;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #e11b22;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+.hero-slider .hero-slider-overlay a.overlay-btn:hover,
+.hero-slider .overlay a.overlay-btn:hover {
+  transform: scale(1.1);
+}
+
+.overlay h1 {
+  font-weight: 600;
+}
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/styles/nav.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************/
+nav {
+  font-weight: 600;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  z-index: 20;
+  background-color: #05194b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .max-width {
+  max-width: 1600px;
+  opacity: 1;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+nav .max-width .homelink {
+  height: 100%;
+  margin-left: 10%;
+}
+nav .max-width .homelink img.nav-active {
+  transform: scale(1);
+  transition: 0.3s;
+  transform-origin: 0 0;
+}
+nav .max-width .homelink img {
+  transform-origin: 0 0;
+  transform: scale(1.2);
+  height: 100%;
+  transition: 0.3s;
+}
+@media screen and (max-width: 980px) {
+  nav .max-width .homelink img {
+    transform: scale(1);
+  }
+}
+nav .max-width button {
+  display: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+nav .max-width a {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s linear;
+}
+nav .max-width a:hover {
+  color: #d2ab67;
+}
+nav .max-width .con {
+  transition: 0.5s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+nav .max-width .con .homelink, nav .max-width .con .social {
+  width: 15%;
+  text-align: center;
+}
+nav .max-width .con ul.social {
+  width: 13%;
+  margin-right: 10%;
+}
+@media screen and (max-width: 980px) {
+  nav .max-width .con ul.social {
+    margin-right: 0;
+  }
+}
+nav .max-width .con ul.social li a {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .max-width .con ul.social li a img {
+  width: 100%;
+  position: absolute;
+}
+nav .max-width .con ul.social li a img:last-child {
+  opacity: 0;
+  transition: 0.3s;
+}
+nav .max-width .con ul.social li a:hover img:last-child {
+  opacity: 1;
+  transition: 0.3s;
+}
+nav .max-width .con .links {
+  width: 50%;
+  margin-left: 5%;
+}
+@media screen and (max-width: 980px) {
+  nav .max-width .con .links {
+    margin-left: 0;
+  }
+}
+nav .max-width .con ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+nav .max-width .con ul li {
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  color: #ffffff;
+  list-style: none;
+}
+nav .max-width .con ul li.active a {
+  color: #d2ab67;
+}
+nav .max-width .con ul li:hover {
+  color: #d2ab67;
+}
+@media screen and (max-width: 1200px) {
+  nav .max-width .con ul {
+    flex-direction: column;
+    height: 50%;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  nav .max-width .con {
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    background-color: #05194b;
+    transform: translateY(-100vh);
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+  }
+  nav .max-width .con ul.social {
+    width: 40%;
+  }
+}
+nav .max-width .con ul.social {
+  flex-direction: row;
+  height: 15%;
+}
+@media screen and (max-width: 1200px) {
+  nav .max-width button {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+}
+nav.open .con {
+  transform: translateY(0);
+}
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/styles/about.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 520px) {
+  .about {
+    padding: 5% 0%;
+  }
+}
+.about.with-img {
+  background: url("http://localhost/wordpress/wp-content/uploads/2023/06/logistika.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.about .max {
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5% 20%;
+  text-align: left;
+  font-size: 1.1rem;
+}
+@media screen and (max-width: 980px) {
+  .about .max {
+    width: 100%;
+    padding: 20% 10%;
+  }
+  .about .max p {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .about .max {
+    padding: 5% 320px;
+  }
+}
+.about .max img, .about .max h1 {
+  margin-bottom: 50px;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/styles/products.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************/
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.products.with-spice.grills {
+  position: relative;
+  background: url("http://localhost/wordpress/wp-content/uploads/2023/06/zoleles.png");
+  background-repeat: no-repeat;
+  background-position: left 5% top 20%;
+  background-size: 25%;
+}
+.products.with-spice.grills::before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: url("http://localhost/wordpress/wp-content/uploads/2023/06/Grill-right.png");
+  background-repeat: no-repeat;
+  background-position: right 5% bottom 40%;
+  background-size: 15%;
+  display: block;
+  position: absolute;
+}
+@media screen and (max-width: 520px) {
+  .products.with-spice.grills::before {
+    background-position: right 0 top 21%;
+    background-size: 40%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .products.with-spice.grills {
+    background-position: bottom 35% left -100%;
+    background-size: 80%;
+  }
+}
+.products.with-spice.snackss {
+  position: relative;
+  background: url("http://localhost/wordpress/wp-content/uploads/2023/06/stix-left.png");
+  background-repeat: no-repeat;
+  background-position: left top 30%;
+  background-size: 25%;
+}
+.products.with-spice.snackss::before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: url("http://localhost/wordpress/wp-content/uploads/2023/06/stix-right.png");
+  background-repeat: no-repeat;
+  background-position: right 3% bottom 40%;
+  background-size: 20%;
+  display: block;
+  position: absolute;
+}
+@media screen and (max-width: 520px) {
+  .products.with-spice.snackss::before {
+    background-position: bottom 25% center;
+    background-size: contain;
+  }
+}
+@media screen and (max-width: 520px) {
+  .products.with-spice.snackss {
+    background-position: top 12% center;
+    background-size: contain;
+  }
+}
+.products .max {
+  z-index: 5;
+  margin-bottom: 5%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1966036415) 0%, rgba(255, 255, 255, 0) 50%);
+  padding: 0 260px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: start;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 1600px) {
+  .products .max {
+    padding: 0 260px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .products .max {
+    padding: 0 10%;
+  }
+}
+@media screen and (max-width: 980px) {
+  .products .max {
+    padding: 0 80px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .products .max {
+    padding: 0 80px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .products .max {
+    flex-direction: column;
+  }
+}
+.products .max .card {
+  width: 100%;
+  margin: 30px 0;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+@media screen and (max-width: 520px) {
+  .products .max .card {
+    width: 100%;
+  }
+}
+.products .max .card img {
+  filter: drop-shadow(15px 15px 20px rgba(0, 0, 0, 0.6666666667));
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.products .max .card .title {
+  width: 50%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.grills .max .card:nth-of-type(2) {
+  margin-right: 5%;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/styles/footer.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #05194b;
+}
+footer .max {
+  max-width: 1600px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .max .copy {
+  width: 100%;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .max a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+footer .max a:hover {
+  color: #d2ab67;
+}
+footer .max ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+footer .max .con {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 20%;
+}
+@media screen and (max-width: 980px) {
+  footer .max .con {
+    padding: 10%;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 520px) {
+  footer .max .con .left {
+    font-size: 0.8rem;
+  }
+}
+footer .max .con .left p {
+  display: flex;
+  gap: 5px;
+}
+@media screen and (max-width: 980px) {
+  footer .max .con .left {
+    width: 100%;
+    text-align: left;
+  }
+}
+footer .max .con .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+@media screen and (max-width: 980px) {
+  footer .max .con .right {
+    margin-top: 30px;
+    width: 100%;
+    align-items: flex-start;
+  }
+}
+footer .max .con .right a {
+  text-transform: uppercase;
+}
+footer .max .con .right ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .max .con .right ul li a {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .max .con .right ul li a img {
+  width: 100%;
+  position: absolute;
+}
+footer .max .con .right ul li a img:last-child {
+  opacity: 0;
+  transition: 0.3s;
+}
+footer .max .con .right ul li a:hover img:last-child {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+/*# sourceMappingURL=index.css.map*/

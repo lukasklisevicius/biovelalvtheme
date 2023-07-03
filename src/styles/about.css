@@ -1,0 +1,43 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 520px) {
+  .about {
+    padding: 5% 0%;
+  }
+}
+.about.with-img {
+  background: url("http://localhost/wordpress/wp-content/uploads/2023/06/logistika.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.about .max {
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5% 20%;
+  text-align: left;
+  font-size: 1.1rem;
+}
+@media screen and (max-width: 980px) {
+  .about .max {
+    width: 100%;
+    padding: 20% 10%;
+  }
+  .about .max p {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .about .max {
+    padding: 5% 320px;
+  }
+}
+.about .max img, .about .max h1 {
+  margin-bottom: 50px;
+}/*# sourceMappingURL=about.css.map */

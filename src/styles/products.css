@@ -1,0 +1,136 @@
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.products.with-spice.grills {
+  position: relative;
+  background: url("http://localhost/wordpress/wp-content/uploads/2023/06/zoleles.png");
+  background-repeat: no-repeat;
+  background-position: left 5% top 20%;
+  background-size: 25%;
+}
+.products.with-spice.grills::before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: url("http://localhost/wordpress/wp-content/uploads/2023/06/Grill-right.png");
+  background-repeat: no-repeat;
+  background-position: right 5% bottom 40%;
+  background-size: 15%;
+  display: block;
+  position: absolute;
+}
+@media screen and (max-width: 520px) {
+  .products.with-spice.grills::before {
+    background-position: right 0 top 21%;
+    background-size: 40%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .products.with-spice.grills {
+    background-position: bottom 35% left -100%;
+    background-size: 80%;
+  }
+}
+.products.with-spice.snackss {
+  position: relative;
+  background: url("http://localhost/wordpress/wp-content/uploads/2023/06/stix-left.png");
+  background-repeat: no-repeat;
+  background-position: left top 30%;
+  background-size: 25%;
+}
+.products.with-spice.snackss::before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: url("http://localhost/wordpress/wp-content/uploads/2023/06/stix-right.png");
+  background-repeat: no-repeat;
+  background-position: right 3% bottom 40%;
+  background-size: 20%;
+  display: block;
+  position: absolute;
+}
+@media screen and (max-width: 520px) {
+  .products.with-spice.snackss::before {
+    background-position: bottom 25% center;
+    background-size: contain;
+  }
+}
+@media screen and (max-width: 520px) {
+  .products.with-spice.snackss {
+    background-position: top 12% center;
+    background-size: contain;
+  }
+}
+.products .max {
+  z-index: 5;
+  margin-bottom: 5%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1966036415) 0%, rgba(255, 255, 255, 0) 50%);
+  padding: 0 260px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: start;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 1600px) {
+  .products .max {
+    padding: 0 260px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .products .max {
+    padding: 0 10%;
+  }
+}
+@media screen and (max-width: 980px) {
+  .products .max {
+    padding: 0 80px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .products .max {
+    padding: 0 80px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .products .max {
+    flex-direction: column;
+  }
+}
+.products .max .card {
+  width: 100%;
+  margin: 30px 0;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+@media screen and (max-width: 520px) {
+  .products .max .card {
+    width: 100%;
+  }
+}
+.products .max .card img {
+  filter: drop-shadow(15px 15px 20px rgba(0, 0, 0, 0.6666666667));
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.products .max .card .title {
+  width: 50%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.grills .max .card:nth-of-type(2) {
+  margin-right: 5%;
+}/*# sourceMappingURL=products.css.map */

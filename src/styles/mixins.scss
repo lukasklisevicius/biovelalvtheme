@@ -1,0 +1,29 @@
+@mixin atSmall {
+  @media screen and (max-width: 520px) {
+    @content;
+  }
+}
+
+@mixin atMedium {
+  @media screen and (max-width: 980px) {
+    @content;
+  }
+}
+
+@mixin atBiggerMedium {
+  @media screen and (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin biggest{
+  @media screen and (min-width: 1600px) {
+    @content;
+  }
+}
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
